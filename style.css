@@ -36,14 +36,20 @@
 .epilepsy-overview figcaption{margin-top:20px}
 .epilepsy-image-pair{margin:0 0 24px}
 .epilepsy-image-pair .case-figure{display:flex;flex-direction:column;justify-content:center;background:#eaece5}
-.epilepsy-image-pair .case-figure img{max-height:620px}
+.epilepsy-image-pair .case-figure img{width:100%;height:clamp(280px,32vw,420px);max-height:none;object-fit:contain}
+.epilepsy-medication-pair .case-figure img{height:clamp(280px,32vw,420px);object-fit:contain}
 .epilepsy-analysis-image{padding:34px 3% 22px}
 .epilepsy-analysis-image img{width:100%;max-height:820px}
 .epilepsy-analysis-image figcaption{margin-top:20px}
 .epilepsy-boundary{border-top:1px solid var(--rule)}
+.epilepsy-design-context{width:100%;margin:22px 0;background:#eaece5;padding:22px 5% 18px}
+.epilepsy-design-context img{width:100%;height:auto;max-height:none;object-fit:contain}
+.epilepsy-design-context figcaption{margin-top:14px}
+.epilepsy-logger-figure{padding:32px 5% 20px}
+.epilepsy-logger-figure img{width:100%;max-height:650px}
 .epilepsy-challenge-copy{max-width:760px}
 .epilepsy-challenge-image{margin:24px 0;background:#eaece5;padding:20px 4% 16px}
 .epilepsy-challenge-image img{width:100%;height:auto;max-height:none}
 .epilepsy-challenge-image figcaption{margin-top:16px}
 @media(max-width:850px){.epilepsy-feature{grid-template-columns:1fr;gap:28px;padding:48px 0}.epilepsy-feature-reverse .case-copy,.epilepsy-feature-reverse .case-figure{grid-column:1;grid-row:auto}.epilepsy-feature-reverse .case-copy{grid-row:1}.epilepsy-feature-reverse .case-figure{grid-row:2}}
-@media(max-width:560px){.epilepsy-feature{padding:35px 0;gap:20px}.epilepsy-overview{padding:18px 4% 16px}.epilepsy-analysis-image{padding:20px 3% 16px}.epilepsy-image-pair{margin-bottom:18px}.case-section.epilepsy-challenge-section{display:block}.epilepsy-challenge-image{margin:20px 0;padding:14px 4% 12px}}
+@media(max-width:560px){.epilepsy-feature{padding:35px 0;gap:20px}.epilepsy-overview{padding:18px 4% 16px}.epilepsy-analysis-image{padding:20px 3% 16px}.epilepsy-image-pair{margin-bottom:18px}.epilepsy-image-pair .case-figure img{height:auto;max-height:none}.epilepsy-medication-pair .case-figure img{height:clamp(280px,32vw,420px);max-height:none;object-fit:contain}.case-section.epilepsy-challenge-section{display:block}.epilepsy-challenge-image{margin:20px 0;padding:14px 4% 12px}}
