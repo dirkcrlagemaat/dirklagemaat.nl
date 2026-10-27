@@ -1,4 +1,147 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Connecting daily experiences with physiological data for more personal epilepsy research."><meta name="theme-color" content="#f5f4ef"><title>The Epilepsy Journal — Dirk Lagemaat</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head>
-<body><a class="skip" href="#main">Skip to content</a><header class="site-header"><a class="logo" href="index.html" aria-label="Dirk Lagemaat home">dirk<span class="logo-dot">.</span><span class="logo-name">Lagemaat<br>Industrial designer</span></a><nav aria-label="Main navigation"><a href="projects.html" aria-current="page">Projects</a><a href="cv.html">About & CV</a><a href="contact.html">Contact</a></nav></header>
-<main id="main"><article><section class="case-intro"><a class="back-link" href="projects.html">← All projects</a><p class="eyebrow">01 / Digital health</p><h1>The Epilepsy Journal</h1><p class="case-lead">A wearable-connected iOS application that brings contextual journaling, medication tracking and physiological measurements into one synchronised research dataset.</p><dl class="project-meta"><div><dt>Context</dt><dd>MSc graduation project · TU Delft</dd></div><div><dt>Methods & tools</dt><dd>SwiftUI, Xcode, HealthKit, Apple Watch</dd></div></dl></section><figure class="case-hero epilepsy-journal"><img class="" src="images/journal-patient-interface.png" alt="Patient journaling workflow on iPhone and Apple Watch: choose a label, set a timeframe and review logged labels." width="2308" height="1268" fetchpriority="high" decoding="async"><figcaption>Patient journaling workflow on iPhone and Apple Watch: choose a label, set a timeframe and review logged labels.</figcaption></figure><section class="case-section"><div class="case-label"><span class="eyebrow">01 / The challenge</span></div><div class="case-copy"><h2>The challenge</h2><p>Understanding what happens before a seizure requires more than detecting the seizure itself. Context such as stress, sleep and daily activities often remains separate from physiological measurements. My graduation project explored how to connect these sources while keeping the burden of long-term journaling manageable.</p></div></section><figure class="case-figure"><img class="" src="images/epilepsy-journal.webp" alt="Four iPhone screens and Apple Watch interfaces from The Epilepsy Journal" width="874" height="824" loading="lazy" decoding="async"><figcaption>Four iPhone screens and Apple Watch interfaces from The Epilepsy Journal.</figcaption></figure><section class="case-section"><div class="case-label"><span class="eyebrow">02 / From interface to working system</span></div><div class="case-copy"><h2>From interface to working system</h2><p>I designed and developed the application in SwiftUI, integrating Apple Watch measurements through HealthKit. Timestamped journal entries and physiological data align in 30-second windows. The system includes a timeline, medication tracking, configurable reminders, analysis views and structured CSV export. Conversations with patients, clinicians, SEIN researchers and TU Delft informed both usability and clinical relevance.</p></div></section><figure class="case-figure"><img class="" src="images/journal-interface.webp" alt="Application screens showing journaling, physiological data and analysis features." width="1216" height="858" loading="lazy" decoding="async"><figcaption>Application screens showing journaling, physiological data and analysis features.</figcaption></figure><section class="case-section"><div class="case-label"><span class="eyebrow">03 / Evaluation and next steps</span></div><div class="case-copy"><h2>Evaluation and next steps</h2><p>A within-subjects study with seven participants compared three reminder strategies. No statistically significant differences were found; personalised nudges nevertheless showed promising response times and informed a hybrid strategy. The portfolio reports a year-long follow-up study planned with SEIN and EpilepsieNL from January 2027, involving more than 50 patients. The seizure-risk model is a proof of concept for research, rather than a validated clinical prediction tool.</p></div></section><figure class="case-figure"><img class="" src="images/journal-system.webp" alt="Connected iPhone and Apple Watch interfaces for recording daily context." width="713" height="481" loading="lazy" decoding="async"><figcaption>Connected iPhone and Apple Watch interfaces for recording daily context.</figcaption></figure><div class="source-note">Project text and visuals adapted from my 2026 portfolio. <a href="portfolio-dirk-lagemaat.pdf" target="_blank" rel="noopener">Read the full portfolio ↗</a></div><a class="next-project" href="growth-monitor.html"><span class="eyebrow">Next project</span><span>Infant Growth Monitor <span aria-hidden="true">↗</span></span></a></article></main><footer class="site-footer"><div class="footer-top"><p class="eyebrow">Have a project in mind?</p><a class="footer-contact" href="mailto:dirklagemaatdesign@gmail.com">Let’s make it tangible.<span aria-hidden="true">↗</span></a></div><div class="footer-bottom"><span>© 2026 Dirk Lagemaat</span><span>Industrial design · Rotterdam, NL</span><a href="portfolio-dirk-lagemaat.pdf" target="_blank" rel="noopener">Portfolio PDF ↗</a></div></footer></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Epilepsy Journal is a wearable-connected iPhone and Apple Watch prototype that links personal journals, medication and physiological data for epilepsy care and research.">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>The Epilepsy Journal — Dirk Lagemaat</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Dirk Lagemaat home">dirk<span class="logo-dot">.</span><span class="logo-name">Lagemaat<br>Industrial designer</span></a>
+    <nav aria-label="Main navigation"><a href="projects.html" aria-current="page">Projects</a><a href="cv.html">About &amp; CV</a><a href="contact.html">Contact</a></nav>
+  </header>
+  <main id="main">
+    <article>
+      <section class="case-intro">
+        <a class="back-link" href="projects.html">← All projects</a>
+        <p class="eyebrow">01 / Digital health</p>
+        <h1>The Epilepsy Journal</h1>
+        <p class="case-lead">A wearable-connected iPhone and Apple Watch app that brings daily experiences, medication and physiological data together in one personal epilepsy journal.</p>
+        <figure class="case-video">
+          <video controls playsinline preload="metadata" poster="images/epilepsy-final-overview.png" aria-label="Product demonstration video for The Epilepsy Journal">
+            <source src="videos/epilepsy-journal-showcase.mp4" type="video/mp4">
+            Your browser does not support embedded videos. <a href="videos/epilepsy-journal-showcase.mp4">Download the video.</a>
+          </video>
+          <figcaption>Product demonstration of the final app concept.</figcaption>
+        </figure>
+        <dl class="project-meta">
+          <div><dt>Context</dt><dd>MSc graduation project · TU Delft · 2026</dd></div>
+          <div><dt>Platform</dt><dd>iPhone and Apple Watch · Swift · HealthKit</dd></div>
+        </dl>
+      </section>
+
+      <section class="case-section epilepsy-challenge-section">
+        <div class="case-label"><span class="eyebrow">01 / The challenge</span></div>
+        <div class="case-copy epilepsy-challenge-copy">
+          <h2>The challenge</h2>
+          <p>Seizures are unpredictable, while the factors that may influence them differ from person to person. A wearable can record changes in the body, but those measurements cannot explain on their own what someone was doing, feeling or experiencing. A diary can add that context, but entries made afterwards are easy to forget and difficult to align accurately with sensor data.</p>
+          <figure class="case-figure epilepsy-challenge-image">
+            <img src="images/epilepsy-neurologist-interface.png" alt="Illustration of a patient and neurologist reviewing the Epilepsy Journal app, with screens for seizure frequency, medication tracking, physiology analysis and trigger identification." width="1850" height="948" loading="lazy" decoding="async">
+            <figcaption>The app is designed to help patients and clinicians review seizure patterns, medication and possible triggers together.</figcaption>
+          </figure>
+          <p>The project set out to make those two perspectives useful together: a low-effort way to record personal events and medication alongside wearable measurements, with a clear timeline that patients and clinicians can review. The resulting dataset is intended to support more personalised research and conversations about care; it does not diagnose seizures or provide medical advice.</p>
+        </div>
+      </section>
+
+      <section class="epilepsy-feature epilepsy-feature-reverse">
+        <div class="case-copy">
+          <p class="eyebrow">Designing with the people involved</p>
+          <h2>Stakeholder collaboration</h2>
+          <p>I began from my own experience as someone living with epilepsy, then involved patients, clinicians and researchers throughout the project. I arranged conversations when a design question needed clinical, technical or lived-experience input, and gave participants a consent form before stakeholder meetings.</p>
+          <p>Patients and the patient organisation EpilepsieNL helped surface the importance of personal goals, understandable language, flexible labels and control over sensitive data. Conversations with clinicians and SEIN researchers shaped the need to relate seizure events to medication and physiological changes, while keeping analysis focused and clinically relevant. A TU Delft computer-science expert and the Axite workshop added perspectives on interpretable machine learning, engagement and remote research. I translated this feedback into the final app’s customisable logging, layered analysis and user-controlled data export. A clinical stakeholder review confirmed the concept’s potential value while reinforcing that its outputs must not be presented as medical recommendations.</p>
+        </div>
+        <figure class="case-figure epilepsy-feature-visual">
+          <img src="images/epilepsy-stakeholder-map.png" alt="Stakeholder map connecting the design project with patients, clinicians, researchers and organisations including TU Delft, EpilepsieNL, SEIN, Erasmus MC and Axite." width="1395" height="1386" loading="lazy" decoding="async">
+          <figcaption>People and organisations involved in developing and reviewing the concept.</figcaption>
+        </figure>
+      </section>
+
+      <section class="case-section">
+        <div class="case-label"><span class="eyebrow">02 / The final design</span></div>
+        <div class="case-copy">
+          <h2>One connected journal</h2>
+          <p>The final design brings four daily tasks into a single system: recording events, reviewing physiological patterns, configuring reminders and tracking medication. The logger opens first so a user can record an event quickly; the other areas are available when they want to review their data or adjust the app to suit their routine.</p>
+          <p>The interface groups labels into categories and avoids flashing or abrupt high-contrast effects. Its aim is to keep the journal straightforward to use and the collected information understandable, including for people who may not be familiar with data analysis.</p>
+        </div>
+      </section>
+      <figure class="case-figure epilepsy-overview">
+        <img src="images/epilepsy-final-overview.png" alt="Final app overview showing the logger and analysis pages, including custom labels, notifications, medication, timelines and physiological graphs." width="2251" height="1508" fetchpriority="high" decoding="async">
+        <figcaption>The final interface: logging and analysis, with configurable notifications and medication tracking.</figcaption>
+      </figure>
+
+      <section class="case-section">
+        <div class="case-label"><span class="eyebrow">03 / Recording daily context</span></div>
+        <div class="case-copy">
+          <h2>Quick, flexible journaling</h2>
+          <p>Users select a label from grouped categories such as sleep, emotional state, environment, health, medication or seizure-related events. They can add their own labels and categories, save favourites, and record overlapping events. A note can add personal context to a label.</p>
+          <p>Three logging modes suit different moments: a snapshot records something happening now, a stopwatch follows a planned event from start to finish, and manual time selection lets users enter an event afterwards. Each entry has an editable start and end time and appears on a scrollable daily timeline, where it can later be reviewed, changed or removed. This reduces reliance on memory and keeps the timestamp connected to the corresponding wearable data.</p>
+        </div>
+      </section>
+      <div class="case-image-pair epilepsy-image-pair">
+        <figure class="case-figure">
+          <img src="images/epilepsy-logger.png" alt="Annotated iPhone logger showing category buttons, custom labels, stopwatch, timeframe selection, notes and timeline editing." width="1860" height="796" loading="lazy" decoding="async">
+          <figcaption>The iPhone logger keeps common labels and timeframe controls close at hand.</figcaption>
+        </figure>
+        <figure class="case-figure">
+          <img src="images/epilepsy-watch.png" alt="Three Apple Watch screens for medication logging, category-based event journaling and reviewing logged events on a timeline." width="1116" height="391" loading="lazy" decoding="async">
+          <figcaption>The watch supports quick logging and review when using the phone is less convenient.</figcaption>
+        </figure>
+      </div>
+
+      <section class="case-section">
+        <div class="case-label"><span class="eyebrow">04 / Medication and reminders</span></div>
+        <div class="case-copy">
+          <h2>Support shaped around the user</h2>
+          <p>The medication area records a medicine, dose and user-entered half-life, and lets someone log a taken or missed dose. The app visualises the expected medication level over time so it can be considered alongside events and physiological changes. It is a tracking aid, not a dosing recommendation.</p>
+          <p>Reminders can be configured to fit an individual routine. The final concept combines scheduled prompts, inactivity reminders, calendar-linked prompts, physiological threshold or baseline-deviation warnings, and reminders when a logged medication effect is expected to end. Users can choose which kinds to enable. This gives people more control over when the app interrupts them.</p>
+        </div>
+      </section>
+      <div class="case-image-pair epilepsy-image-pair">
+        <figure class="case-figure">
+          <img src="images/epilepsy-medication.png" alt="Final medication screens showing taken and missed dose buttons, dose entry, medication effect over time and a dose history." width="820" height="848" loading="lazy" decoding="async">
+          <figcaption>Medication name, dose and duration of effect can be reviewed together.</figcaption>
+        </figure>
+        <figure class="case-figure">
+          <img src="images/epilepsy-notifications.png" alt="Final notification settings screen with controls for scheduled and inactivity reminders, threshold and baseline alerts, medication-effect reminders and calendar prompts." width="1953" height="1285" loading="lazy" decoding="async">
+          <figcaption>Reminder and warning types can be enabled and adjusted by the user.</figcaption>
+        </figure>
+      </div>
+
+      <section class="case-section">
+        <div class="case-label"><span class="eyebrow">05 / Making personal data easier to interpret</span></div>
+        <div class="case-copy">
+          <h2>From measurements to patterns</h2>
+          <p>On the analysis page, users choose a date range and physiological features to review. The app places journal entries and seizure events on a timeline, then shows selected measurements as graphs. A personal baseline and shaded standard-deviation range help distinguish someone’s usual values from changes that may deserve attention.</p>
+          <p>Users can compare logged scenarios with selected features and inspect correlations between pairs of measures. Medication history and event timing add context to those views. Data is stored on the phone, and the user can export a selected period of synchronised journal and wearable data as a structured CSV or Excel file to share or use in research.</p>
+          <p>The trigger dashboard is a research prototype that illustrates how recent measurements might be compared with a person’s previously logged events. Its risk indicator is not validated, is not a clinical prediction, and must not be used to guide treatment.</p>
+        </div>
+      </section>
+      <figure class="case-figure epilepsy-analysis-image">
+        <img src="images/epilepsy-analysis.png" alt="Annotated analysis screens showing feature graphs with personal baselines, feature combinations, scenario comparisons and a non-validated trigger dashboard concept." width="2437" height="1721" loading="lazy" decoding="async">
+        <figcaption>Analysis tools shown in the final design, including personal baselines and the clearly unvalidated trigger-dashboard concept.</figcaption>
+      </figure>
+
+      <section class="case-section epilepsy-boundary">
+        <div class="case-label"><span class="eyebrow">06 / Scope and next steps</span></div>
+        <div class="case-copy">
+          <h2>A foundation for longer-term research</h2>
+          <p>The project delivered a functional iPhone and Apple Watch prototype, built in Swift with HealthKit integration. It aligns time-stamped journal entries with available wearable data in a format that can be segmented into 30-second windows for future analysis. The prototype currently depends on compatible Apple devices, and it does not collect every potentially relevant biomarker, including electrodermal activity.</p>
+          <p>The data pipeline was checked structurally, but it has not been validated against real seizure events. The app and its analysis features therefore remain a research prototype rather than an approved clinical product. A longer study with people living with epilepsy is needed to establish which labels and measurements are useful over time and whether the resulting personal datasets can support reliable clinical research.</p>
+        </div>
+      </section>
+
+      <p class="source-note">Project text and final-design visuals are based on my TU Delft graduation project, 2026.</p>
+      <a class="next-project" href="growth-monitor.html"><span class="eyebrow">Next project</span><span>Infant Growth Monitor <span aria-hidden="true">↗</span></span></a>
+    </article>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-top"><p class="eyebrow">Have a project in mind?</p><a class="footer-contact" href="mailto:dirklagemaatdesign@gmail.com">Let’s make it tangible.<span aria-hidden="true">↗</span></a></div>
+    <div class="footer-bottom"><span>© 2026 Dirk Lagemaat</span><span>Industrial design · Rotterdam, NL</span><a href="portfolio-dirk-lagemaat.pdf" target="_blank" rel="noopener">Portfolio PDF ↗</a></div>
+  </footer>
+</body>
+</html>
