@@ -53,3 +53,26 @@
 .epilepsy-challenge-image figcaption{margin-top:16px}
 @media(max-width:850px){.epilepsy-feature{grid-template-columns:1fr;gap:28px;padding:48px 0}.epilepsy-feature-reverse .case-copy,.epilepsy-feature-reverse .case-figure{grid-column:1;grid-row:auto}.epilepsy-feature-reverse .case-copy{grid-row:1}.epilepsy-feature-reverse .case-figure{grid-row:2}}
 @media(max-width:560px){.epilepsy-feature{padding:35px 0;gap:20px}.epilepsy-overview{padding:18px 4% 16px}.epilepsy-analysis-image{padding:20px 3% 16px}.epilepsy-image-pair{margin-bottom:18px}.epilepsy-image-pair .case-figure img{height:auto;max-height:none}.epilepsy-medication-pair .case-figure img{height:clamp(280px,32vw,420px);max-height:none;object-fit:contain}.case-section.epilepsy-challenge-section{display:block}.epilepsy-challenge-image{margin:20px 0;padding:14px 4% 12px}}
+.growth-electronics-integration{width:50%;margin:0 auto 24px}
+
+/* The Flipper case study: consistent image frames and responsive visual groups. */
+.flipper-hero{padding:46px 12% 0}
+.flipper-hero>img{width:100%;max-height:680px;object-fit:contain}
+.flipper-driver-figure{margin:0 0 24px;padding:30px 8% 20px}
+.flipper-driver-figure img{width:100%;max-height:560px;object-fit:contain}
+.flipper-pair .case-figure{display:flex;flex-direction:column;justify-content:center;background:#eaece5}
+.flipper-pair .case-figure img{width:100%;height:clamp(240px,32vw,420px);max-height:none;object-fit:contain}
+.flipper-layout-figure{width:min(600px,100%);margin:0 auto 24px}
+.flipper-process{overflow-x:auto;padding:22px 0 16px}
+.flipper-process img{width:100%;min-width:900px;max-height:none}
+.flipper-process figcaption{padding:0 6%;margin-top:16px}
+.flipper-pass-figure{width:min(360px,100%);margin:0 auto 24px}
+.flipper-pass-figure img{width:100%;height:210px;object-fit:contain}
+.flipper-three-up{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:0 0 24px}
+.flipper-three-up .case-figure{display:flex;flex-direction:column;justify-content:center;min-width:0;padding:22px 5% 18px;background:#eaece5}
+.flipper-three-up .case-figure img{width:100%;height:clamp(230px,25vw,330px);max-height:none;object-fit:contain}
+.flipper-three-up figcaption{margin-top:17px}
+.flipper-comparables{grid-template-columns:repeat(3,minmax(0,1fr));margin-top:0}
+.flipper-comparables .case-figure img{height:clamp(250px,27vw,360px)}
+@media(max-width:850px){.flipper-three-up{grid-template-columns:repeat(2,minmax(0,1fr))}.flipper-comparables{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.flipper-hero{padding:24px 5% 0}.flipper-driver-figure{padding:18px 4% 14px}.flipper-pair .case-figure img{height:clamp(250px,70vw,340px)}.flipper-process img{min-width:900px}.flipper-three-up,.flipper-comparables{grid-template-columns:1fr;gap:18px}.flipper-three-up .case-figure img{height:300px}.flipper-pass-figure{width:min(360px,100%)}}
