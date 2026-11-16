@@ -5,6 +5,24 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .case-image-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.case-image-pair .case-figure{min-width:0;padding:24px 5% 20px}.case-image-pair img{width:100%;height:auto;max-height:none}.case-image-pair figcaption{margin-top:18px}
+.project-image.entrepreneurship{aspect-ratio:1.9;padding:0;background:#fff}
+.project-card:first-child .project-image.epilepsy-journal{aspect-ratio:1.11;padding:0}
+.project-image.circular-healthcare{aspect-ratio:1.29;padding:0}
+.project-image.multi-coach{aspect-ratio:1.39;padding:0}
+.project-image.flipper{aspect-ratio:1.56;padding:0}
+.project-image.ergonomics-model{aspect-ratio:1.83;padding:0}
+.project-image.innovation-process{aspect-ratio:1.59;padding:0}
+.project-image.cookware-lca{aspect-ratio:1.41;padding:0}
+.project-image.vinyl-record-holder{aspect-ratio:1.19;padding:0}
+.project-card:not(:first-child):not(:last-child){display:flex;flex-direction:column}
+.project-card:not(:first-child):not(:last-child) .project-image{aspect-ratio:1.42;padding:3%}
+.project-card:not(:first-child):not(:last-child) .project-info{flex:1;grid-template-rows:auto 1fr}
+.project-card:not(:first-child):not(:last-child) .category{align-self:end}
+.entrepreneurship-framework-pair{width:min(1240px,100%);margin:0 auto 24px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.entrepreneurship-framework{min-width:0;padding:22px 5% 18px}
+.entrepreneurship-framework img{width:100%;max-height:none}
+.entrepreneurship-framework figcaption{margin-top:18px}
+@media(max-width:850px){.entrepreneurship-framework-pair{grid-template-columns:1fr;gap:18px}}
 .case-image-pair .scale-rib-grid-image{width:auto;max-width:100%;height:auto;aspect-ratio:auto;object-fit:contain;margin-inline:auto}
 @media(max-width:560px){.case-image-pair{grid-template-columns:1fr;gap:20px}}
 
